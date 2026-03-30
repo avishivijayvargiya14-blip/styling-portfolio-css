@@ -1,0 +1,58 @@
+/* External Css */
+h1{
+    color: #C7ABBE;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 40 px;
+    left: 750px; 
+    text-shadow: #C7ABBE 5px 5px 10px;
+}
+body{
+    background-color:  #2B0D3E;
+  
+}
+header{
+    background-color: #C7ABBE;
+    padding: 40px;
+    margin: 0px;
+    text-align: right;
+    word-spacing: 15px;
+    
+}
+img{
+    border-radius: 150px ;
+    border: #C7ABBE solid 10px;
+    box-shadow: #C7ABBE 5px 5px 10px;
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+}
+footer {
+    background-color: white;
+    padding :20 px;
+    text-align: center;
+    margin: auto;
+    
+}
+.container{
+    background-color: #C7ABBE;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+    border-radius: 100px;
+    color: #2B0D3E;
+    font-size: 22px;
+    font-family: 'Vast Shadow', serif;
+   
+}
+ 
