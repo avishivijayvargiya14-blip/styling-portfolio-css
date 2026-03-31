@@ -1,5 +1,5 @@
-/* External Css */
-h1{
+/* /* External Css */
+/* h1{
     color: #C7ABBE;
     font-weight: 400;
     font-size: 100px;
@@ -11,20 +11,20 @@ h1{
     top: 40 px;
     left: 750px; 
     text-shadow: #C7ABBE 5px 5px 10px;
-}
-body{
+} */
+/* body{
     background-color:  #2B0D3E;
   
-}
-header{
+} */
+/* header{
     background-color: #C7ABBE;
     padding: 40px;
     margin: 0px;
     text-align: right;
     word-spacing: 15px;
     
-}
-img{
+} */
+/* img{
     border-radius: 150px ;
     border: #C7ABBE solid 10px;
     box-shadow: #C7ABBE 5px 5px 10px;
@@ -37,8 +37,8 @@ footer {
     padding :20 px;
     text-align: center;
     margin: auto;
-    
-}
+     */
+/* }
 .container{
     background-color: #C7ABBE;
     width: 350px;
@@ -53,6 +53,133 @@ footer {
     color: #2B0D3E;
     font-size: 22px;
     font-family: 'Vast Shadow', serif;
-   
+} */
+  */
+/* External Css */
+
+/* ─── Base Reset ─────────────────────────────────── */
+* {
+  box-sizing: border-box;
 }
- 
+
+body {
+  background-color: #2B0D3E;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Header ─────────────────────────────────────── */
+header {
+  background-color: #C7ABBE;
+  padding: 20px 40px;
+  margin: 0;
+  text-align: right;
+  word-spacing: 15px;
+}
+
+/* ─── H1 ─────────────────────────────────────────── */
+h1 {
+  color: #C7ABBE;
+  font-weight: 400;
+  font-size: clamp(40px, 8vw, 100px); /* scales between 40px and 100px */
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px auto;
+  text-shadow: #C7ABBE 5px 5px 10px;
+  text-align: center;
+}
+
+/* ─── Profile Image ──────────────────────────────── */
+img {
+  border-radius: 150px;
+  border: #C7ABBE solid 10px;
+  box-shadow: #C7ABBE 5px 5px 10px;
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
+}
+
+/* ─── Info Card / Container ──────────────────────── */
+.container {
+  background-color: #C7ABBE;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 40px;
+  color: #2B0D3E;
+  font-size: 22px;
+  font-family: 'Vast Shadow', serif;
+}
+
+/* ─── Footer ─────────────────────────────────────── */
+footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* ─── Tablet (max 768px) ─────────────────────────── */
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+    text-align: center;
+    word-spacing: 8px;
+  }
+
+  h1 {
+    font-size: clamp(32px, 7vw, 60px);
+  }
+
+  .container {
+    font-size: 18px;
+    border-radius: 30px;
+  }
+}
+
+/* ─── Mobile (max 480px) ─────────────────────────── */
+@media (max-width: 480px) {
+  header {
+    padding: 12px 15px;
+    word-spacing: 5px;
+  }
+
+  h1 {
+    font-size: clamp(28px, 9vw, 48px);
+    padding: 5px;
+  }
+
+  img {
+    border-width: 6px;
+    border-radius: 100px;
+  }
+
+  .container {
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  footer {
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
